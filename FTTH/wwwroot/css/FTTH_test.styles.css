@@ -1,0 +1,206 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+
+header.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; 
+    padding: 10px; 
+    border-radius:30px;
+    width:90%;
+    margin:20px auto 20px auto;
+    
+}
+
+    header.header_content .logo-img {
+        flex: 1;
+        text-align: left;
+    }
+
+    header.header_content .web-portal-title {
+        flex: 1;
+        text-align: center;
+    }
+
+    header.header_content .fiber-text {
+        flex: 1;
+        text-align: right;
+    }
+
+    header.header_content h1,
+    header.header_content h2 {
+        margin: 0;
+        color: black; 
+    }
+
+    header.header_content .logo {
+        max-height: 100px; 
+        width: auto;
+    }
+
+    header.header_content .fiber-text .slt-fiber-text {
+        color: darkblue;
+        font-size:40px;
+        font-weight:900;
+    }
+
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+.registration-form {
+    background-color:aliceblue;
+}
+
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 100px; 
+}
+
+
+h1, h2 {
+    margin: 0;
+}
+
+
+.user-info {
+    margin:0 auto;
+    max-width: 1200px;
+    width: 100%;
+    background-color: azure;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px 4px;
+}
+
+.user-info-buttons { 
+    display: flex;
+}
+
+.user-info-button { 
+    margin-right: 10px;
+}
+
+.user-id {
+    font-weight: bold;
+}
+
+
+.registration-form {
+    width: 100%;
+}
+
+.registration-form-header { 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.data-table { 
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.data-table-cell, .data-table-header {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.data-table-header { 
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.labelRow {
+    padding: 12px 0 0 15px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label { 
+    font-weight: bold;
+}
+
+.form-control { 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form-actions { 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+.btn-warning {
+    width: 20%;
+    height: 40px;
+    color: aliceblue;
+    background-color: darkblue;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-success {
+    width: 20%;
+    height: 40px;
+    color: aliceblue;
+    background-color: darkblue;
+    font-weight: bold;
+    float: right;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+}
+
+.btn-warning:hover {
+    background-color: red;
+    color: white;
+    font-size: 150%;
+}
+
+.btn-warning:active {
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: red;
+    color: white;
+    font-size: 150%;
+}
+
+.btn-success:active {
+    border: none;
+}
+

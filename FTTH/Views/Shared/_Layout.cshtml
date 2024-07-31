@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FTTH Web Portal</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/FTTH_test.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="_Layout.cshtml.css" asp-append-version="true" />
+</head>
+<body>
+
+    <header class="header_content">
+        <div class="logo-img">
+            <img src="C:\Users\Pasan Pinsara\OneDrive\Desktop\3rd Year\Intern Practicals\C#\Training 1\FTTH\FTTH\Image\ai_4.jpeg" alt="SLT Mobitel Logo" class="logo">
+        </div>
+        <div class="web-portal-title">
+            <h1>FTTH Web Portal</h1>
+        </div>
+        <div class="fiber-text">   
+            <h2 class="slt-fiber-text">SLT FIBRE</h2>
+        </div>
+    </header>
+
+    <div class="user-info text-center mb-3">
+        <div class="btn">
+            <button class="btn btn-primary">Home</button>
+            <button class="btn btn-danger">Logout</button>
+        </div>
+        <span class="user-id">User : 00234</span>
+    </div>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
